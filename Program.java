@@ -6,6 +6,7 @@ public class Program {
 		
 		System.out.println("First Easy Manual Java Project from Notepad");
 		System.out.println(Arrays.toString(args));
+		System.out.println("Введите команду: ");
 		Scanner scanner = new Scanner(System.in);
 		String answer = scanner.nextLine();
 		System.out.println("Вы ввели: " + answer);
